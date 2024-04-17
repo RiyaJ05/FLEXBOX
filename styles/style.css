@@ -1,0 +1,75 @@
+.container-1 {
+  display: flex;
+  border: solid 5px rgb(164, 232, 255);
+}
+
+.container-1 div {
+  flex-grow: 1;
+  background-color: lightslategray;
+  color: white;
+  border: solid 5px rgb(164, 232, 255);
+  text-align: center;
+  height: 50px;
+}
+
+.container-2 {
+  display: flex;
+  border: solid 7.5px rgb(164, 232, 255);
+}
+
+.container-2 div {
+  flex-grow: 1;
+  background-color: lightslategray;
+  color: white;
+  border: solid 7.5px rgb(164, 232, 255);
+  text-align: center;
+  height: 50px;
+}
+
+.container-3 {
+  background-color: rgb(164, 232, 255);
+  border: solid 12px rgb(164, 232, 255);
+  display: flex;
+  gap: 12px;
+}
+
+.container-3 div {
+  background-color: lightslategray;
+  border: solid 2px black;
+  flex: 1;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+
+.container-3 .bigger {
+  flex: 2;
+}
+
+.container-4 {
+  background-color: rgb(164, 232, 255);
+  border: solid 12px rgb(164, 232, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row-1 {
+  display: flex;
+  gap: 12px;
+}
+
+.row-1 div,
+.row-2 div {
+  background-color: lightslategray;
+  border: solid 2px black;
+  flex: 1;
+  color: white;
+  width: 50px;
+  text-align: center;
+  height: 50px;
+}
+
+.row-2 div {
+  width: auto;
+}
